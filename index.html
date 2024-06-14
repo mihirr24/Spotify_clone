@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Spotify - Your favourite music is here</title>
+        <link rel="stylesheet" href="style.css">
+        </head>
+
+
+        <div class="header">
+            <nav>
+                <ul>
+                    <li class="brand"><img class="logo" src="logo.png">
+                    <span>spotify</span></li>
+                    <li> home </li>
+                    <li>about</li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="container">
+            <div class="songlist">
+                <h1>list of songs</h1>
+                <div class="songlistcontainer">
+                    
+                   
+                </div>
+            </div>
+            <div class="background"></div>
+        </div>
+        <div class="footer">
+            <input type="range" name="range" id="bar" value="0">
+            <audio src="songs/1.mp3" id="my-audio"></audio>
+            <div class="icon">
+                <i class="fa fa-3x fa-step-backward" aria-hidden="true" id="previous" ></i>
+                <i class="far fa-3x fa-play-circle" id="master"></i>
+                <i class="fa  fa-3x fa-step-forward" aria-hidden="true" id="next"></i>
+            </div>
+            <div class="songinfo">
+                <img src="playing.gif" width="42px"><span id="sname">let me love you</span>
+            </div>
+        </div>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/26504e4a1f.js" crossorigin="anonymous"></script>
+</body>
+</html>
